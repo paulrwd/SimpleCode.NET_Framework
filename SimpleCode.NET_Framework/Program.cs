@@ -10,9 +10,13 @@ namespace SimpleCode.NET_Framework
     {
         static void Main(string[] args)
         {
-            int[] myArray = new int[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine(myArray.Length);
-            Console.ReadLine();
+            int[] a = new int[10];
+
+            a = null;
+
+            Console.WriteLine(a[0]);
+
+
         }
     }
 }
